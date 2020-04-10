@@ -70,11 +70,19 @@ Pizza.prototype.formatOrder = function () {
   }
 }
 
+function checkedBox() {
+  var checkBox = $(".check");
+  var za = $(".za");
+  if (checkBox.checked == true) {
+    za.style.display = "block"
+  } else {
+    za.style.display = "none";
+  }
+}
 
 // UI Logic
 
 $(document).ready(function () {
-
   $("form#pizza").submit(function (event) {
     event.preventDefault();
     var pizza = new Pizza;
