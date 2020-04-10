@@ -5,6 +5,19 @@ body {
   font-size: 3vh;
   
 }
+.container {
+  width: 60vw;
+}
+.orderBox {
+  display:flex;
+  justify-content: space-around;
+  background-color: #fadc62;
+  padding: 2vw;
+}
+
+#header-img {
+  width: 60vw;
+}
 
 #completeMe {
   display: none;

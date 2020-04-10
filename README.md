@@ -4,7 +4,7 @@
 
 ## Description
 
-This website allows a user to place an order for a pizza and calculate the price based upon their selection.
+This website allows a user to place an order for a pizza and calculates the price based upon their selection.
 
 ## Setup
 
