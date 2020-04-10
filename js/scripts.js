@@ -41,6 +41,15 @@ Pizza.prototype.priceCalculator = function () {
   }
 };
 
+Pizza.prototype.isFormComplete = function () {
+  if (this.crust == "blank" || this.sauce == "blank" || this.size == "blank") {
+    $("#completeMe").fadeIn(600);
+  } else {
+    $("#finalOrder").fadeIn(600);
+    $("#pizza").hide();
+    $("#completeMe").hide();
+  }
+}
 
 
 // UI Logic
@@ -60,10 +69,12 @@ $(document).ready(function () {
       pizza.toppings.push(toppings);
     })
     pizza.sauce = $("#sauces").val();
+    pizza.crust = $("#crust").val();
     console.log(pizza.size);
     console.log(pizza.meats);
     console.log(pizza.toppings);
     pizza.priceCalculator();
+    pizza.isFormComplete();
     console.log(pizza.price);
 
   })

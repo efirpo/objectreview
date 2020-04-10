@@ -6,6 +6,10 @@ body {
   
 }
 
-.container {
-  justify-items: center;
+#completeMe {
+  display: none;
+}
+
+#finalOrder {
+  display: none;
 }
