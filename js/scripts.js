@@ -17,7 +17,12 @@ Pizza.prototype.priceCalculator() {
   else if (this.size = "4") {
     this.price += 6
   }
+
+  if (this.meats.length > 1) {
+    meats.forEach()
+  }
 }
+
 
 
 // UI Logic
