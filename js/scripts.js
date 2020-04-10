@@ -20,23 +20,18 @@ Pizza.prototype.priceCalculator = function () {
   else if (this.size == "godly") {
     this.price += 6
   }
-
   if (this.meats.length > 1) {
     this.price += ((this.meats.length - 1) * 2)
   }
-
   if (this.meats.includes("lamb")) {
     this.price += 1
   }
-
   if (this.toppings.length > 2) {
     this.price += ((this.toppings.length - 2) * 1.5)
   }
-
   if (this.sauce == "squid") {
     this.price += 2
   }
-
   if (this.crust == "stuffed") {
     this.price += 1.75
   }

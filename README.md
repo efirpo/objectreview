@@ -12,6 +12,8 @@ Clone this repository.
 
 Open index.html in the web browser of your choice.
 
+### OR visit https://efirpo.github.io/objectreview/
+
 ## Technology
 
 HTML
