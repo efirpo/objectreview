@@ -31,6 +31,14 @@ Pizza.prototype.priceCalculator = function () {
   if (this.toppings.length > 2) {
     this.price += ((this.toppings.length - 2) * 1.5)
   }
+
+  if (this.sauce == "squid") {
+    this.price += 2
+  }
+
+  if (this.crust == "stuffed") {
+    this.price += 1.75
+  }
 };
 
 
@@ -51,6 +59,7 @@ $(document).ready(function () {
       var toppings = $(this).val();
       pizza.toppings.push(toppings);
     })
+    pizza.sauce = $("#sauces").val();
     console.log(pizza.size);
     console.log(pizza.meats);
     console.log(pizza.toppings);

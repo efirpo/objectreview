@@ -39,7 +39,7 @@
           <input type="checkbox" name="meatchoice" value="chicken"> Chicken<br>
           <input type="checkbox" name="meatchoice" value="bacon"> Canadian Bacon<br>
           <input type="checkbox" name="meatchoice" value="beef"> Steak<br>
-          <input type="checkbox" name="meatchoice" value="lamb"> Lamb (costs $3.00 extra)
+          <input type="checkbox" name="meatchoice" value="lamb"> Lamb (+ $3.00)
         </div>
         <div class="col-md-6">
           <label for="toppings">Pick your other toppings.</label><br>
@@ -59,7 +59,15 @@
           <option value="marinara">Marinara</option>
           <option value="white">White Sauce</option>
           <option value="bbq">Barbeque</option>
-          <option value="squid">Squid Ink (costs $2.00 extra)</option>
+          <option value="squid">Squid Ink (+ $2.00)</option>
+        </select><br><br>
+        <label for="crust">And, finally, pick your crust.</label>
+        <select class="form-group" id="crust">
+          <option value="blank"></option>
+          <option value="regular">Standard</option>
+          <option value="thin-crust">Thin Crust</option>
+          <option value="stuffed">Cheese Stuffed Crust(+ $1.75)</option>
+          <option value="deep-dish">Deep Dish... you heathen</option>
         </select><br><br>
         <button type="submit" id="order">Place Your Order!</button>
         <br><br>
