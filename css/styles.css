@@ -1,5 +1,5 @@
 body {
-  background-color: #fadc00;
+  background-color: #fadc62;
   color: #bf0005;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 3vh;
@@ -7,11 +7,14 @@ body {
 }
 .container {
   width: 60vw;
+  border: 2px solid #bf0005;
+  background-color: #fff097;
 }
 .orderBox {
   display:flex;
   justify-content: space-around;
-  background-color: #fadc62;
+  align-items: center;
+  background-color: #ffea00;
   padding: 2vw;
 }
 
@@ -21,8 +24,17 @@ body {
 
 #completeMe {
   display: none;
+  align-content: center;
 }
 
-#finalOrder {
+#holypizza {
   display: none;
+  background-color: #fadc62;
+}
+#receiptbox {
+  display: flex;
+  align-content: space-around;
+  background-color: #fadc62;
+  padding: 2vw;
+  border: 2px solid #bf0005;
 }

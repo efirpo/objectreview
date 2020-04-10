@@ -8,7 +8,7 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Document</title>
+  <title>Heavenly Pizza</title>
 </head>
 
 <body>
@@ -21,15 +21,15 @@
     <p>Here at Heavenly Pizza, we believe in quality ingredients for a good price. You won't find a better pizza
       anywhere in the mortal realm. It's pizza so good it makes the angels sing.</p>
 
-    <p>Please Place your order below:</p>
+
     <br>
     <div class="orderBox">
       <div id="completeMe">
-        <img src="img/powercrust.png" title="Mea culpa">
+        <img src="img/powercrust.png" class="finish-order" title="Mea culpa">
 
       </div>
       <form id="pizza">
-
+        <p>Please Place your order below:</p>
         <label for="pizzasize">Choose a size.</label><br>
         <select class="Form-group" id="pizzasize">
           <option value="blank"></option>
@@ -84,10 +84,17 @@
     </div>
 
     </form>
-    <div id="finalOrder" class="orderBox">
-      <img src="img/holypizza.png" id="order-img">
-    </div>
+    <div id="receiptBox">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/holypizza.png" id="holypizza" title="Spiritus sancti">
+        </div>
+        <div id="receipt">
 
+        </div>
+
+      </div>
+    </div>
   </div>
 </body>
 
