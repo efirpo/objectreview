@@ -12,11 +12,19 @@ Clone this repository.
 
 Open index.html in the web browser of your choice.
 
+## Technology
+
+HTML
+CSS
+Bootstrap Style Library
+JavaScript
+jQuery Script Library
+
 ## Specs
 
 |Behavior|Input|Output|
 |------|------|------|
-|Program will set a base price for the user's pizza based on size|Size:Large|Price + 4|
+|Program will set a base price for the user's pizza based on size|Size:Large|Price 10.00 + 4|
 |Program will allow user to choose meats and set price + 2 for each choice above the first|Pepperoni, Sausage|Price + 2|
 |Program will allow user to choose other toppings and set price +1.50 for each choice past two|Extra Cheese, Onion, Pineapple|Price +1.50|
 |Program will output final price to user|Order placed|"Your pizza will cost $17.50"|
