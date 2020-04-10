@@ -19,9 +19,7 @@ body {
   margin-bottom: 1vw;
 }
 
-.za {
-  display: none;
-}
+
 
 #header-img {
   width: 60vw;
@@ -44,4 +42,60 @@ body {
   padding: 2vw;
   border: 2px solid #bf0005;
   margin-bottom: 1vw;
+}
+
+#za1 {
+  display: none;
+}
+
+#za2 {
+  display: none;
+}
+
+#za3 {
+  display: none;
+}
+
+#za4 {
+  display: none;
+}
+
+#za5 {
+  display: none;
+}
+
+#za6 {
+  display: none;
+}
+
+#za7 {
+  display: none;
+}
+
+#za8 {
+  display: none;
+}
+
+#za9 {
+  display: none;
+}
+
+#za10 {
+  display: none;
+}
+
+#za11 {
+  display: none;
+}
+
+#za12 {
+  display: none;
+}
+
+#za13 {
+  display: none;
+}
+
+#za14 {
+  display: none;
 }

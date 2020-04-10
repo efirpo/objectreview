@@ -70,18 +70,107 @@ Pizza.prototype.formatOrder = function () {
   }
 }
 
-function checkedBox() {
-  var zabox = $(".check");
-  if (zabox.check == true) {
-    $(".za").show();
-  }
-}
-
-
 // UI Logic
 
 $(document).ready(function () {
-
+  $('input:checkbox[value=pepperoni]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za1").show();
+    } else {
+      $("#za1").hide();
+    }
+  })
+  $('input:checkbox[value=sausage]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za2").show();
+    } else {
+      $("#za2").hide();
+    }
+  })
+  $('input:checkbox[value=chicken]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za3").show();
+    } else {
+      $("#za3").hide();
+    }
+  })
+  $('input:checkbox[value=bacon]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za4").show();
+    } else {
+      $("#za4").hide();
+    }
+  })
+  $('input:checkbox[value=beef]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za5").show();
+    } else {
+      $("#za5").hide();
+    }
+  })
+  $('input:checkbox[value=lamb]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za6").show();
+    } else {
+      $("#za6").hide();
+    }
+  })
+  $('input:checkbox[value=extra-cheese]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za7").show();
+    } else {
+      $("#za7").hide();
+    }
+  })
+  $('input:checkbox[value=onion]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za8").show();
+    } else {
+      $("#za8").hide();
+    }
+  })
+  $('input:checkbox[value=pineapple]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za9").show();
+    } else {
+      $("#za9").hide();
+    }
+  })
+  $('input:checkbox[value=anchovies]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za10").show();
+    } else {
+      $("#za10").hide();
+    }
+  })
+  $('input:checkbox[value=garlic]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za11").show();
+    } else {
+      $("#za11").hide();
+    }
+  })
+  $('input:checkbox[value=spinach]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za12").show();
+    } else {
+      $("#za12").hide();
+    }
+  })
+  $('input:checkbox[value=mushrooms]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za13").show();
+    } else {
+      $("#za13").hide();
+    }
+  })
+  $('input:checkbox[value=peppers]').change(function () {
+    if ($(this).is(':checked')) {
+      $("#za14").show();
+    } else {
+      $("#za14").hide();
+    }
+  })
   $("form#pizza").submit(function (event) {
     event.preventDefault();
     var pizza = new Pizza;
