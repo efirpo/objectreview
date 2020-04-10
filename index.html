@@ -4,11 +4,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
   <title>Document</title>
 </head>
 
 <body>
 
+  <div class="container">
+    <img src="img/pizzajesus.png">
+
+    <h1>Welcome to a cheesy paradise.</h1>
+    <br>
+    <p>Here at Heavenly Pizza, we believe in quality ingredients for a good price. You won't find a better pizza
+      anywhere in the mortal realm. It's pizza so good it makes the angels sing.</p>
+    <form>
+      <p>Please Place your order here:</p><br>
+      <label for="pizzasize">Choose a size.</label><br>
+      <select class="Form-group" id="pizzasize">
+        <option value="blank"></option>
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+        <option>Godly</option>
+      </select><br><br>
+      <label for="meats">Pick your meats.</label><br>
+      <p>More than one meat will cost $2.00 extra.</p>
+      <input type="checkbox" name="meatchoice" value="pepperoni"> Pepperoni<br>
+      <input type="checkbox" name="meatchoice" value="sausage"> Sausage<br>
+      <input type="checkbox" name="meatchoice" value="chicken"> Chicken<br>
+      <input type="checkbox" name="meatchoice" value="bacon"> Canadian Bacon<br><br>
+      <label for="toppings">Pick your other toppings</label><br>
+      <p>More than two will cost $1.50 per extra topping.</p>
+      <input type="checkbox" name="toppings" value="excheese"> Extra Cheese<br>
+      <input type="checkbox" name="toppings" value="onion"> Onions<br>
+      <input type="checkbox" name="toppings" value="pineapple"> Pineapple<br>
+      <input type="checkbox" name="toppings" value="anchovy"> Anchovies<br>
+
+    </form>
+
+  </div>
 </body>
 
 </html>

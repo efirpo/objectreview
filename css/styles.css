@@ -1,0 +1,11 @@
+body {
+  background-color: #fadc00;
+  color: #bf0005;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3vh;
+  
+}
+
+.container {
+  justify-items: center;
+}
