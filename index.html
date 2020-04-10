@@ -25,10 +25,10 @@
       <label for="pizzasize">Choose a size.</label><br>
       <select class="Form-group" id="pizzasize">
         <option value="blank"></option>
-        <option>Small</option>
-        <option>Medium</option>
-        <option>Large</option>
-        <option>Godly</option>
+        <option value="1">Small - $10.00</option>
+        <option value="2">Medium - $12.00</option>
+        <option value="3">Large - $14.00</option>
+        <option value="4">Godly - $16.00</option>
       </select><br><br>
       <label for="meats">Pick your meats.</label><br>
       <p>More than one meat will cost $2.00 extra.</p>
@@ -36,13 +36,16 @@
       <input type="checkbox" name="meatchoice" value="sausage"> Sausage<br>
       <input type="checkbox" name="meatchoice" value="chicken"> Chicken<br>
       <input type="checkbox" name="meatchoice" value="bacon"> Canadian Bacon<br><br>
-      <label for="toppings">Pick your other toppings</label><br>
+      <label for="toppings">Pick your other toppings.</label><br>
       <p>More than two will cost $1.50 per extra topping.</p>
       <input type="checkbox" name="toppings" value="excheese"> Extra Cheese<br>
       <input type="checkbox" name="toppings" value="onion"> Onions<br>
       <input type="checkbox" name="toppings" value="pineapple"> Pineapple<br>
       <input type="checkbox" name="toppings" value="anchovy"> Anchovies<br>
-
+      <input type="checkbox" name="toppings" value="garlic"> Garlic<br>
+      <input type="checkbox" name="toppings" value="spinach"> Spinach<br><br>
+      <button type="submit" id="order">Place Your Order!</button>
+      <br><br>
     </form>
 
   </div>
