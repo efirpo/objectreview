@@ -1,25 +1,31 @@
 // Business Logic
 
 function Pizza() {
-  this.size = "";
+  this.size;
   this.meats = [];
   this.toppings = [];
-  this.price = 10
+  this.price = 10;
+  this.sauce = "";
+  this.crust = "";
 };
 
 Pizza.prototype.priceCalculator = function () {
-  if (this.size = "2") {
+  if (this.size == 2) {
     this.price += 2
   }
-  else if (this.size = "3") {
+  else if (this.size == 3) {
     this.price += 4
   }
-  else if (this.size = "4") {
+  else if (this.size == 4) {
     this.price += 6
   }
 
   if (this.meats.length > 1) {
     this.price += ((this.meats.length - 1) * 2)
+  }
+
+  if (this.meats.includes("lamb")) {
+    this.price += 1
   }
 
   if (this.toppings.length > 2) {
