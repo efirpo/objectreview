@@ -19,7 +19,11 @@ Pizza.prototype.priceCalculator() {
   }
 
   if (this.meats.length > 1) {
-    meats.forEach()
+    this.price += ((this.meats.length - 1) * 2)
+  }
+
+  if (this.toppings.length > 2) {
+    this.price += ((this.toppings - 2) * 1.5)
   }
 }
 
