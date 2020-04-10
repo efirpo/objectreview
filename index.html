@@ -29,7 +29,7 @@
 
       </div>
       <form id="pizza">
-        <p>Please Place your order below:</p>
+        <h2>Confess your hunger, my child:</h2><br>
         <label for="pizzasize">Choose a size.</label><br>
         <select class="Form-group" id="pizzasize">
           <option value="blank"></option>
@@ -42,12 +42,13 @@
 
         <label for="meats">Pick your meats.</label><br>
         <p>More than one meat will cost $2.00 extra per meat.</p>
+        <p><em>Lamb will cost $1.00 extra on its own, and $3.00 extra as a second meat.</em></p>
         <input type="checkbox" name="meatchoice" value="pepperoni"> Pepperoni<br>
         <input type="checkbox" name="meatchoice" value="sausage"> Sausage<br>
         <input type="checkbox" name="meatchoice" value="chicken"> Chicken<br>
         <input type="checkbox" name="meatchoice" value="bacon"> Canadian Bacon<br>
         <input type="checkbox" name="meatchoice" value="beef"> Steak<br>
-        <input type="checkbox" name="meatchoice" value="lamb"> Lamb (+ $3.00)
+        <input type="checkbox" name="meatchoice" value="lamb"> Lamb
         <br><br>
 
         <label for="toppings">Pick your other toppings.</label><br>
@@ -62,7 +63,7 @@
         <input type="checkbox" name="toppings" value="peppers"> Bell Peppers
         <br><br>
 
-        <label for="sauces">Pick your sauce.</label>
+        <label for="sauces">Pick your sauce.</label><br>
         <select class="form-group" id="sauces">
           <option value="blank"></option>
           <option value="marinara">Marinara</option>
@@ -70,7 +71,7 @@
           <option value="bbq">Barbeque</option>
           <option value="squid">Squid Ink (+ $2.00)</option>
         </select><br>
-        <label for="crust">And, finally, pick your crust.</label>
+        <label for="crust">And, finally, pick your crust.</label><br>
         <select class="form-group" id="crust">
           <option value="blank"></option>
           <option value="regular">Standard</option>
@@ -78,7 +79,7 @@
           <option value="stuffed">Cheese Stuffed Crust(+ $1.75)</option>
           <option value="deep-dish">Deep Dish... you heathen</option>
         </select><br><br>
-        <button type="submit" id="order">Place Your Order!</button>
+        <button type="submit" class="btn-lg btn-danger" id="order">Amen!</button>
 
 
     </div>
@@ -87,6 +88,7 @@
     <div id="receiptBox">
       <div class="row">
         <div class="col-md-4">
+
           <img src="img/holypizza.png" id="holypizza" title="Spiritus sancti">
         </div>
         <div id="receipt">

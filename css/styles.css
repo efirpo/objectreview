@@ -1,7 +1,7 @@
 body {
   background-color: #fadc62;
   color: #bf0005;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 3vh;
   
 }
@@ -14,8 +14,9 @@ body {
   display:flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #ffea00;
+  background-color: #ffea3b;
   padding: 2vw;
+  margin-bottom: 1vw;
 }
 
 #header-img {
@@ -30,10 +31,11 @@ body {
 #holypizza {
   display: none;
   background-color: #fadc62;
+  
 }
 #receiptbox {
   display: flex;
-  align-content: space-around;
+  align-content: space-between;
   background-color: #fadc62;
   padding: 2vw;
   border: 2px solid #bf0005;

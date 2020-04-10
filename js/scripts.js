@@ -62,11 +62,11 @@ Pizza.prototype.formatOrder = function () {
   var formatVegToppings = this.toppings.join(", ");
 
   if (this.meats.length >= 1 && this.toppings.length < 1) {
-    $("#receipt").html("<div class='col-md-4'><h2>Your Order:</h2> <br><strong> Size:</strong> " + formatSize + "<br><strong> Toppings:</strong> A meaty pie with " + formatMeats + ", and " + this.sauce + " sauce, on a " + this.crust + " crust!" + "<br><strong> Price:</strong> $" + formatPrice + "</div><br><button type='button' class='btn btn-outline-success' onClick='window.location.reload()'>Place Another Order!</button>")
+    $("#receipt").html("<div class='col-md-4'><h2>Your Order:</h2> <br><strong> Size:</strong> " + formatSize + "<br><strong> Toppings:</strong> A meaty pie with " + formatMeats + ", and " + this.sauce + " sauce, on a " + this.crust + " crust!" + "<br><strong> Price:</strong> $" + formatPrice + "</div><br><button type='button' class='btn btn-lg btn-danger' onClick='window.location.reload()'>Place Another Order!</button>")
   } else if (this.meats.length < 1 && this.toppings.length >= 1) {
-    $("#receipt").html("<div class='col-md-4'><h2>Your Order:</h2> <br><strong> Size:</strong> " + formatSize + "<br><strong> Toppings:</strong> A meatless pie with " + formatVegToppings + ", and " + this.sauce + " sauce, on a " + this.crust + " crust!" + "<br><strong> Price:</strong> $" + formatPrice + "</div><br><button type='button' class='btn btn-outline-success' onClick='window.location.reload()'>Place Another Order!</button>")
+    $("#receipt").html("<div class='col-md-4'><h2>Your Order:</h2> <br><strong> Size:</strong> " + formatSize + "<br><strong> Toppings:</strong> A meatless pie with " + formatVegToppings + ", and " + this.sauce + " sauce, on a " + this.crust + " crust!" + "<br><strong> Price:</strong> $" + formatPrice + "</div><br><button type='button' class='btn btn-lg btn-danger' onClick='window.location.reload()'>Place Another Order!</button>")
   } else if (this.meats.length >= 1 && this.toppings.length >= 1) {
-    $("#receipt").html("<div class='col-md-4'><h2>Your Order:</h2> <br><strong> Size:</strong> " + formatSize + "<br><strong> Toppings:</strong> " + formatAllToppings + ", with " + this.sauce + " sauce, on a " + this.crust + " crust!" + "<br><strong> Price:</strong> $" + formatPrice + "</div><br><button type='button' class='btn btn-outline-success' onClick='window.location.reload()'>Place Another Order!</button>")
+    $("#receipt").html("<div class='col-md-4'><h2>Your Order:</h2> <br><strong> Size:</strong> " + formatSize + "<br><strong> Toppings:</strong> " + formatAllToppings + ", with " + this.sauce + " sauce, on a " + this.crust + " crust!" + "<br><strong> Price:</strong> $" + formatPrice + "</div><br><button type='button' class='btn btn-lg btn-danger' onClick='window.location.reload()'>Place Another Order!</button>")
   }
 }
 
