@@ -16,11 +16,11 @@ Open index.html in the web browser of your choice.
 
 ## Technology
 
-HTML
-CSS
-Bootstrap Style Library
-JavaScript
-jQuery Script Library
+HTML,
+CSS,
+Bootstrap Style Library,
+JavaScript,
+jQuery Script Library.
 
 ## Specs
 
